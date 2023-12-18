@@ -3,6 +3,7 @@ import { defineStore } from 'pinia'
 
 export const useInputStore = defineStore('input', () => {
   const input = ref(new Map())
+  const selected = computed(() => [...input.value.keys()])
   const printInput = computed(() => JSON.stringify([...input.value.keys()]))
   // function increment() {
   //   count.value++
@@ -15,5 +16,5 @@ export const useInputStore = defineStore('input', () => {
     }
   }
 
-  return { input, printInput, checkboxChange }
+  return { input, selected, printInput, checkboxChange }
 })
