@@ -1,23 +1,28 @@
 <script setup lang="ts">
-import { useInputStore } from '../stores/input'
-
-const inputStore = useInputStore()
-
-defineProps<{
+const props = defineProps<{
   id: string
+  onChange?: Function
+  checked?: boolean
 }>()
 
-const onChange = (e: Event) => {
+const onCheckboxChange = (e: Event) => {
   const { value = '' } = e.target as HTMLInputElement
 
-  inputStore.checkboxChange(value)
+  if (props.onChange) props.onChange(value)
   console.log(value)
 }
 </script>
 
 <template>
   <div class="checklist-item">
-    <input type="checkbox" :id="id" :name="id" :value="id" @change="onChange" />
+    <input
+      type="checkbox"
+      :id="id"
+      :name="id"
+      :value="id"
+      @change="onCheckboxChange"
+      :checked="checked"
+    />
     <label :for="id">
       <slot name="heading"></slot>
     </label>

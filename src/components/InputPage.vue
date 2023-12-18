@@ -18,7 +18,11 @@ const items = [
   <form>
     <h1>In 2023, I...</h1>
     <template v-for="item in items" :key="item.id">
-      <ChecklistItem :id="item.id">
+      <ChecklistItem
+        :id="item.id"
+        :onChange="inputStore.checkboxChange"
+        :checked="inputStore.selected.includes(item.id)"
+      >
         <template #heading>
           {{ item.heading }}
         </template>
