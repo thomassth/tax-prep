@@ -19,7 +19,7 @@ const filteredSet = computed(() => {
 })
 
 const filteredItems = computed(() =>
-  outputStore.outputDb.filter((item) => filteredSet.value.has(item.id) === true)
+ filteredSet.value ?  outputStore.outputDb.filter((item) => filteredSet.value.has(item.id) === true):outputStore.outputDb
 )
 
 const items = ref(
