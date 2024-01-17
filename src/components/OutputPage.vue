@@ -26,7 +26,8 @@ const items = ref(
   filteredItems.value.map((item) => {
     return {
       id: item.id,
-      heading: item.name
+      heading: item.name,
+      source: item.source
     }
   })
 )
@@ -38,6 +39,7 @@ const items = ref(
       <ChecklistItem :id="item.id">
         <template #heading>
           {{ item.heading }}
+          <br><p>usually from: {{ item.source }}</p>
         </template>
       </ChecklistItem>
     </template>
