@@ -19,7 +19,9 @@ const filteredSet = computed(() => {
 })
 
 const filteredItems = computed(() =>
- inputStore.selected.length ?  outputStore.outputDb.filter((item) => filteredSet.value.has(item.id) === true):outputStore.outputDb
+  inputStore.selected.length
+    ? outputStore.outputDb.filter((item) => filteredSet.value.has(item.id) === true)
+    : outputStore.outputDb
 )
 
 const items = ref(
@@ -39,8 +41,8 @@ const items = ref(
       <ChecklistItem :id="item.id">
         <template #heading>
           {{ item.heading }}
-          <br><p>usually from: {{ item.source }}</p>
         </template>
+        <template #hints> usually from: {{ item.source }} </template>
       </ChecklistItem>
     </template>
   </div>

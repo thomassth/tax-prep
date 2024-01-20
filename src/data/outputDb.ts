@@ -1,3 +1,3 @@
-import mainList from './main_list.json';
+import mainList from './main_list.json'
 // TODO: change to different languages
-export const output = mainList;
+export const output = mainList

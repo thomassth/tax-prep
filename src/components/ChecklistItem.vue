@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useSlots } from 'vue'
+
 const props = defineProps<{
   id: string
   onChange?: Function
@@ -11,6 +13,11 @@ const onCheckboxChange = (e: Event) => {
   if (props.onChange) props.onChange(value)
   console.log(value)
 }
+
+const slots = useSlots()
+const hasSlot = (name: string) => {
+  return !!slots[name]
+}
 </script>
 
 <template>
@@ -22,10 +29,18 @@ const onCheckboxChange = (e: Event) => {
       :value="id"
       @change="onCheckboxChange"
       :checked="checked"
+      :aria-describedby="hasSlot('hints') ? `${id}-hint` : ''"
     />
-    <label :for="id">
-      <slot name="heading"></slot>
-    </label>
+    <div class="checkbox-content">
+      <label :for="id">
+        <slot name="heading"></slot>
+      </label>
+      <div v-if="hasSlot('hints')" :class="`${id}-hint`">
+        <p>
+          <slot name="hints"></slot>
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -49,10 +64,15 @@ input {
   color: #e8e6e3;
 }
 
-label {
-  display: inline-block;
+.checkbox-content {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 0;
   padding: 8px 15px 5px;
+}
+
+label {
+  display: inline-block;
   cursor: pointer;
   touch-action: manipulation;
   font-size: 19px;
@@ -82,11 +102,11 @@ label:after {
   opacity: 0;
 }
 
-input:checked + label:after {
+input:checked + .checkbox-content label:after {
   opacity: 1;
 }
 
-input:focus + label:before {
+input:focus + .checkbox-content label:before {
   border-width: 4px;
   outline-offset: 1px;
   box-shadow: 0 0 0 3px #fd0;
