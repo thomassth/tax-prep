@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { outputDb } from '../data/outputDb'
+import { output } from '../data/outputDb'
 
 export const useOutputStore = defineStore('output', () => {
   const outputGroup = new Map()
@@ -8,5 +8,5 @@ export const useOutputStore = defineStore('output', () => {
   outputGroup.set('work', new Set(['T4']))
   outputGroup.set('rent', new Set(['rental']))
   // TODO: better solution than this?
-  return { outputGroup, outputDb }
+  return { outputGroup, outputDb: output.items }
 })
