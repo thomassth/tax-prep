@@ -10,19 +10,24 @@ const outputStore = useOutputStore()
 const selected = inputStore.selected
 
 const filteredSet = computed(() => {
-  let set = new Set(outputStore.outputGroup.get('essential'))
-  set = new Set([...set, ...outputStore.outputGroup.get('address')])
+  let set = new Set()
   selected.forEach((item) => {
-    set = new Set([...set, ...outputStore.outputGroup.get(item)])
+    const tempSet = outputStore.outputGroup.get(item)
+    if (tempSet) set = new Set([...set, ...tempSet])
   })
   return set
 })
 
-const filteredItems = computed(() =>
-  inputStore.selected.length
+const essentialSet = new Set([
+  ...outputStore.outputGroup.get('essential'),
+  ...outputStore.outputGroup.get('address')
+])
+
+const filteredItems = computed(() => {
+  return inputStore.selected.length
     ? outputStore.outputDb.filter((item) => filteredSet.value.has(item.id) === true)
-    : outputStore.outputDb
-)
+    : outputStore.outputDb.filter((item) => essentialSet.has(item.id) !== true)
+})
 
 const items = ref(
   filteredItems.value.map((item) => {

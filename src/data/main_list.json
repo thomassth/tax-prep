@@ -5,12 +5,14 @@
       "name": "Social security number"
     },
     {
-      "id": "healthCard",
-      "name": "Health card (for your name and address)"
+      "id": "address",
+      "name": "Home address (for 2023)",
+      "source": "Health card, driver's license etc."
     },
     {
-      "id": "driversLicense",
-      "name": "Driver's license(for your name and address)"
+      "id": "name",
+      "name": "Full legal name",
+      "source": "Health card, driver's license etc."
     },
     {
       "id": "T4",
