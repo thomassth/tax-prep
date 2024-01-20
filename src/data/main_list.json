@@ -15,6 +15,29 @@
       "source": "Health card, driver's license etc."
     },
     {
+      "id": "phone",
+      "name": "Phone number"
+    },
+    {
+      "id": "email",
+      "name": "Email"
+    },
+    {
+      "id": "permit",
+      "name": "Your entry permit form",
+      "source": "the form you received at immigration when you enter Canada"
+    },
+    {
+      "id": "arrivalDate",
+      "name": "Your arrival date in Canada",
+      "source": "Permit certs, travel itenary"
+    },
+    {
+      "id": "T4",
+      "name": "T4 tax form",
+      "source": "your employer"
+    },
+    {
       "id": "T4",
       "name": "T4 tax form",
       "source": "your employer"

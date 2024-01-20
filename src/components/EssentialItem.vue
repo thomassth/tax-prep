@@ -34,7 +34,7 @@ const items = ref(
                     <template #heading>
                         {{ item.heading }}
                     </template>
-                    <template #hints> usually from: {{ item.source }} </template>
+                    <template #hints v-if="item.source"> usually from: {{ item.source }} </template>
                 </ChecklistItem>
             </template>
         </div>
