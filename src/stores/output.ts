@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { output } from '../data/outputDb'
+import { output } from '../data/outputDb.js'
 
 export const useOutputStore = defineStore('output', () => {
   const outputGroup = new Map()
