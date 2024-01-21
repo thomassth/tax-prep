@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useInputStore } from '@/stores/input'
-import { useOutputStore } from '@/stores/output'
+import { useInputStore } from '@/stores/input.js'
+import { useOutputStore } from '@/stores/output.js'
 import ChecklistItem from '@/components/ChecklistItem.vue'
 import { computed, ref } from 'vue'
 

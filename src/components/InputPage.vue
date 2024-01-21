@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ChecklistItem from './ChecklistItem.vue'
-import { useInputStore } from '../stores/input'
+import { useInputStore } from '../stores/input.js'
 
 const inputStore = useInputStore()
 
