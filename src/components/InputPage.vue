@@ -29,5 +29,4 @@ const items = [
       </ChecklistItem>
     </template>
   </form>
-  <p>Selected values: {{ inputStore.printInput }}</p>
 </template>

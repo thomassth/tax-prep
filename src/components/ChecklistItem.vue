@@ -46,8 +46,11 @@ const hasSlot = (name: string) => {
 
 <style scoped>
 .checklist-item {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 44px 1fr;
   align-items: center;
+  margin: 0 0.5rem;
   margin-bottom: 1rem;
   position: relative;
 }

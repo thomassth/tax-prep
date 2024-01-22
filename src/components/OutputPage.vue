@@ -2,7 +2,9 @@
 import { useInputStore } from '@/stores/input.js'
 import { useOutputStore } from '@/stores/output.js'
 import ChecklistItem from '@/components/ChecklistItem.vue'
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
+import BaseBadge from '@/components/BaseBadge.vue'
+import EssentialItem from './EssentialItem.vue'
 
 const inputStore = useInputStore()
 const outputStore = useOutputStore()
@@ -28,24 +30,21 @@ const filteredItems = computed(() => {
     ? outputStore.outputDb.filter((item) => filteredSet.value.has(item.id) === true)
     : outputStore.outputDb.filter((item) => essentialSet.has(item.id) !== true)
 })
-
-const items = ref(
-  filteredItems.value.map((item) => {
-    return {
-      id: item.id,
-      heading: item.name,
-      source: item.source
-    }
-  })
-)
 </script>
 
 <template>
   <div class="output">
-    <template v-for="item in items" :key="item.id">
+    <EssentialItem />
+    <template v-for="item in filteredItems" :key="item.id">
       <ChecklistItem :id="item.id">
         <template #heading>
-          {{ item.heading }}
+          <div class="checkbox-desc">
+            <template v-if="Array.isArray(item.formId)">
+              <BaseBadge v-for="id in item.formId" :key="id">{{ id }} </BaseBadge>
+            </template>
+            <BaseBadge v-else-if="item.formId">{{ item.formId }}</BaseBadge>
+            {{ item.name }}
+          </div>
         </template>
         <template #hints> usually from: {{ item.source }} </template>
       </ChecklistItem>
