@@ -71,7 +71,7 @@ input {
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
-  padding: 8px 15px 5px;
+  padding: 0px 15px 8px;
 }
 
 label {

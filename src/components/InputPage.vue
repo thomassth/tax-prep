@@ -4,29 +4,42 @@ import { useInputStore } from '../stores/input.js'
 
 const inputStore = useInputStore()
 
-const items = [
-  { id: 'study', heading: '📚 studied' },
-  { id: 'work', heading: '📊 worked' },
-  { id: 'newcomer', heading: '🇨🇦 first year in Canada' },
-  { id: 'healthcare', heading: '💊 Spent money on healthcare' },
-  { id: 'rent', heading: '🏘 Paid rent' },
-  { id: 'children', heading: '👶 Spent money on children' }
-]
+const items = inputStore.categories
 </script>
 
 <template>
   <form>
     <h1>In 2023, I...</h1>
-    <template v-for="item in items" :key="item.id">
-      <ChecklistItem
-        :id="item.id"
-        :onChange="inputStore.checkboxChange"
-        :checked="inputStore.selected.includes(item.id)"
-      >
-        <template #heading>
-          {{ item.heading }}
-        </template>
-      </ChecklistItem>
-    </template>
+    <fieldset>
+      <template v-for="item in items" :key="item.id">
+        <ChecklistItem
+          :id="item.id"
+          :onChange="inputStore.checkboxChange"
+          :class="[
+            { nested: item.under },
+            { 'show-subcat': inputStore.selected.includes(item.under) }
+          ]"
+          :checked="inputStore.selected.includes(item.id)"
+        >
+          <template #heading>
+            {{ item.heading }}
+          </template>
+        </ChecklistItem>
+      </template>
+    </fieldset>
   </form>
 </template>
+
+<style scoped>
+fieldset {
+  border: none;
+}
+
+.nested {
+  margin-left: 2em;
+
+  &:not(.show-subcat) {
+    display: none;
+  }
+}
+</style>

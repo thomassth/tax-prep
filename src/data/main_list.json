@@ -2,25 +2,30 @@
   "items": [
     {
       "id": "ssn",
-      "name": "Social security number"
+      "name": "Social security number",
+      "type": "info"
     },
     {
       "id": "address",
       "name": "Home address (for 2023)",
-      "source": "Health card, driver's license etc."
+      "source": "Health card, driver's license etc.",
+      "type": "info"
     },
     {
       "id": "name",
       "name": "Full legal name",
-      "source": "Health card, driver's license etc."
+      "source": "Health card, driver's license etc.",
+      "type": "info"
     },
     {
       "id": "phone",
-      "name": "Phone number"
+      "name": "Phone number",
+      "type": "info"
     },
     {
       "id": "email",
-      "name": "Email"
+      "name": "Email",
+      "type": "info"
     },
     {
       "id": "permit",
@@ -30,18 +35,14 @@
     {
       "id": "arrivalDate",
       "name": "Your arrival date in Canada",
-      "source": "Permit certs, travel itenary"
+      "source": "Permit certs, travel itenary",
+      "type": "info"
     },
     {
       "id": "previous_income",
       "name": "Your income from 2021, 2022 (including times before you enter Canada)",
-      "source": "tax receipts of your previous years"
-    },
-    {
-      "id": "T4",
-      "formId": "T4",
-      "name": "tax form",
-      "source": "your employer"
+      "source": "tax receipts of your previous years",
+      "type": "info"
     },
     {
       "id": "T3",
@@ -50,16 +51,28 @@
       "source": "banks"
     },
     {
+      "id": "T4",
+      "formId": "T4",
+      "name": "tax form",
+      "source": "your employer"
+    },
+    {
       "id": "T4E",
       "formId": "T4E",
       "name": "Employment Insurance Benefits",
       "source": "sent from the government of Canada"
     },
     {
-      "id": "T5",
-      "formId": "T5",
-      "name": "Interest and Dividends",
+      "id": "T4FHSA",
+      "formId": "T4FHSA",
+      "name": "Fitst Home Savings Account",
       "source": "banks"
+    },
+    {
+      "id": "T4A_P",
+      "formId": "T4A (P)",
+      "name": "Canada Pension Plan Benefits",
+      "source": "raw_data"
     },
     {
       "id": "T4PS",
@@ -68,21 +81,9 @@
       "source": "your employer (not common)"
     },
     {
-      "id": "T600",
-      "formId": "T600",
-      "name": "Canada Savings Bonds",
-      "source": "banks"
-    },
-    {
       "id": "T4A",
       "formId": "T4A",
       "name": "Pension, Retirement, Annuities and Other Income",
-      "source": "raw_data"
-    },
-    {
-      "id": "T5008",
-      "formId": "T5008",
-      "name": "Statement of Security Transactions",
       "source": "raw_data"
     },
     {
@@ -92,26 +93,10 @@
       "source": "raw_data"
     },
     {
-      "id": "T4A_P",
-      "formId": "T4A (P)",
-      "name": "Canada Pension Plan Benefits",
-      "source": "raw_data"
-    },
-    {
-      "id": "capital",
-      "name": "Capital Gains/Losses",
-      "source": "your own financial portfolio, eg. stock gains/losses over the year"
-    },
-    {
-      "id": "T5007",
-      "formId": "T5007",
-      "name": "WCB Benefits/Social Services Benefits",
-      "source": "raw_data"
-    },
-    {
-      "id": "rental",
-      "name": "Rental Income",
-      "source": "your own share of rents paid, in 2023"
+      "id": "T4_RSP",
+      "formId": "T4 (RSP)",
+      "name": "RRSP Withdrawal",
+      "source": "banks"
     },
     {
       "id": "T4_RIF",
@@ -120,15 +105,47 @@
       "source": "raw_data"
     },
     {
-      "id": "alimony",
-      "name": "Alimony Received (if any)",
+      "id": "T5",
+      "formId": "T5",
+      "name": "Interest and Dividends",
+      "source": "banks"
+    },
+    {
+      "id": "T5007",
+      "formId": "T5007",
+      "name": "WCB Benefits/Social Services Benefits",
       "source": "raw_data"
     },
     {
-      "id": "T4_RSP",
-      "formId": "T4 (RSP)",
-      "name": "RRSP Withdrawal",
+      "id": "T5008",
+      "formId": "T5008",
+      "name": "Statement of Security Transactions",
+      "source": "raw_data"
+    },
+    {
+      "id": "T600",
+      "formId": "T600",
+      "name": "Canada Savings Bonds",
       "source": "banks"
+    },
+    {
+      "id": "capital",
+      "name": "Capital Gains/Losses",
+      "source": "your own financial portfolio, eg. stock gains/losses over the year"
+    },
+    {
+      "id": "rental",
+      "name": "Rents paid",
+      "source": "your own share of rents paid, in 2023"
+    },
+    {
+      "id": "rent_earn",
+      "name": "Rental Income"
+    },
+    {
+      "id": "alimony",
+      "name": "Alimony Received (if any)",
+      "source": "raw_data"
     },
     {
       "id": "childSupport",
@@ -318,14 +335,14 @@
       "source": "raw_data"
     },
     {
-      "id": "32",
-      "name": "Union and Professional Dues",
-      "source": "your workplace / union"
-    },
-    {
       "id": "home_office",
       "name": "Home Office Expenses as an Employee",
       "source": "raw_data"
+    },
+    {
+      "id": "union",
+      "name": "Union and Professional Dues",
+      "source": "your workplace / union"
     }
   ]
 }

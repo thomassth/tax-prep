@@ -16,7 +16,7 @@ const filteredItems = computed(() =>
 </script>
 
 <template>
-  <div class="essentials">
+  <fieldset class="essentials">
     <h1>Essential stuff</h1>
     <div class="output">
       <template v-for="item in filteredItems" :key="item.id">
@@ -28,11 +28,11 @@ const filteredItems = computed(() =>
         </ChecklistItem>
       </template>
     </div>
-  </div>
+  </fieldset>
 </template>
 
 <style scoped>
 .essentials {
-  background-color: #564211;
+  border: 1px solid yellow;
 }
 </style>
