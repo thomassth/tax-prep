@@ -34,24 +34,34 @@ nav {
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  color: black;
+  background-color: rgb(16, 151, 105);
+  border-color: rgb(16, 151, 105);
 }
 
 nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  padding: 1rem;
+  border: 1px solid gray;
 }
 
 nav a:first-of-type {
-  border: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+nav a:last-of-type {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 @media (min-width: 1024px) {
