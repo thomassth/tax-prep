@@ -44,11 +44,18 @@
       "source": "tax receipts of your previous years",
       "type": "info"
     },
-    {
-      "id": "T3",
-      "formId": "T3",
-      "name": "Trust and Mutual Fund Income",
-      "source": "banks"
+   {
+      "id": "prev_notice",
+      "name": "Notice of assessment, tax return for 2022",
+      "source": "CRA"
+    },
+   {
+      "id": "disability",
+      "name": "Disability tax credit certificate",
+    },
+       {
+      "id": "firefighter",
+      "name": "Volunteer firefighter certificate",
     },
     {
       "id": "T4",
@@ -103,6 +110,12 @@
       "formId": "T4 (RIF)",
       "name": "RRIF Income",
       "source": "raw_data"
+    },
+        {
+      "id": "T3",
+      "formId": "T3",
+      "name": "Trust and Mutual Fund Income",
+      "source": "banks"
     },
     {
       "id": "T5",
@@ -164,8 +177,11 @@
     },
     {
       "id": "selfComm",
-      "name": "Self-Employed Commissions Earnings Information",
+      "name": "Self-Employed Commissions Earnings Information (logbooks, home office expenses, etc)",
       "source": "raw_data"
+    },   {
+      "id": "professional_exam",
+      "name": "Professional exam fees",
     },
     {
       "id": "professional",
@@ -203,9 +219,9 @@
       "source": "raw_data"
     },
     {
-      "id": "6",
+      "id": "accountant",
       "name": "Investment Counsel and Accounting Fees",
-      "source": "raw_data"
+      "source": "investment company / accountants"
     },
     {
       "id": "7",
@@ -265,7 +281,7 @@
     {
       "id": "18",
       "name": "RRSP Receipts",
-      "source": "raw_data"
+      "source": "banks"
     },
     {
       "id": "19",
@@ -309,7 +325,7 @@
     },
     {
       "id": "teacher",
-      "name": "Eligible Teaching Supplies Purchased (for teachers and early educatiors only)",
+      "name": "Eligible Teaching Supplies Purchased (for school teachers and early educatiors only)",
       "source": "raw_data"
     },
     {
@@ -323,6 +339,9 @@
       "formId": "T2200",
       "name": "Declaration of Conditions of Employment",
       "source": "your workplace"
+    },    {
+      "id": "work_expenses",
+      "name": "Your work expenses (if you have T2200)"
     },
     {
       "id": "tuition_dependent",
@@ -341,8 +360,11 @@
     },
     {
       "id": "union",
-      "name": "Union and Professional Dues",
+      "name": "Union and Professional Dues (if not included on your T4)",
       "source": "your workplace / union"
-    }
+    },   {
+      "id": "accessible_home",
+      "name": "Home renovation cost (for seniors / accessibility)"
+    },
   ]
 }
