@@ -39,8 +39,15 @@ const optionalItems = computed(() => {
     : []
 })
 
-const checkedSelected = computed(() => {
+const filteredSelected = computed(() => {
   const list = filteredItems.value.filter(item => {
+    return outputStore.selected.includes(item.id)
+  })
+  return list.length
+})
+
+const optionalSelected = computed(() => {
+  const list = optionalItems.value.filter(item => {
     return outputStore.selected.includes(item.id)
   })
   return list.length
@@ -53,7 +60,7 @@ const checkedSelected = computed(() => {
     <EssentialItems />
     <fieldset id="selected">
       <legend v-if="optionalItems.length">
-        <h1>Selected items ({{ checkedSelected }}/{{ filteredItems.length }} checked)</h1>
+        <h1>Selected items ({{ filteredSelected }}/{{ filteredItems.length }} checked)</h1>
         <p>
           These items are selected based on your input, and should help you complete your tax form.
         </p>
@@ -76,14 +83,15 @@ const checkedSelected = computed(() => {
     </fieldset>
     <fieldset v-if="optionalItems.length">
       <legend>
-        <h1>Optional items</h1>
+        <h1>Optional items ({{ optionalSelected }} checked)</h1>
         <p>
           These items are not in the list of things you've selected, but bring them in if you have
           them.
         </p>
       </legend>
       <template v-for="item in optionalItems" :key="item.id">
-        <ChecklistItem :id="item.id">
+        <ChecklistItem :id="item.id" :onChange="outputStore.checkboxChange"
+          :checked="outputStore.selected.includes(item.id)">
           <template #heading>
             <div class="checkbox-desc">
               <template v-if="Array.isArray(item.formId)">

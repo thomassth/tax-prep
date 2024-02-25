@@ -13,12 +13,19 @@ const essentialSet = new Set([
 const filteredItems = computed(() =>
   outputStore.outputDb.filter((item) => essentialSet.has(item.id) === true)
 )
+
+const checkedSelected = computed(() => {
+  const list = filteredItems.value.filter(item => {
+    return outputStore.selected.includes(item.id)
+  })
+  return list.length
+})
 </script>
 
 <template>
   <fieldset class="essentials">
     <legend>
-      <h1>Essential information</h1>
+      <h1>Essential information ({{ checkedSelected }}/{{ filteredItems.length }} checked)</h1>
       <p>These are used to fill in basic details of the tax return.</p>
     </legend>
     <div class="output">
