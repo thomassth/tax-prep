@@ -44,6 +44,12 @@ const optionalItems = computed(() => {
   <div class="output">
     <EssentialItems />
     <fieldset>
+      <legend v-if="optionalItems.length">
+        <h1>Selected items</h1>
+        <p>
+          These items are selected based on your input, and should help you complete your tax form.
+        </p>
+      </legend>
       <template v-for="item in filteredItems" :key="item.id">
         <ChecklistItem :id="item.id" :onChange="outputStore.checkboxChange"
           :checked="outputStore.selected.includes(item.id)">
@@ -61,11 +67,13 @@ const optionalItems = computed(() => {
       </template>
     </fieldset>
     <fieldset v-if="optionalItems.length">
-      <h1>Optional items</h1>
-      <p>
-        These items are not in the list of things you've selected, but bring them in if you have
-        them.
-      </p>
+      <legend>
+        <h1>Optional items</h1>
+        <p>
+          These items are not in the list of things you've selected, but bring them in if you have
+          them.
+        </p>
+      </legend>
       <template v-for="item in optionalItems" :key="item.id">
         <ChecklistItem :id="item.id">
           <template #heading>
@@ -87,5 +95,12 @@ const optionalItems = computed(() => {
 <style scoped>
 fieldset {
   border: none;
+}
+
+legend {
+  background: rgba(128, 128, 128, 0.2);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
 }
 </style>

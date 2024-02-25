@@ -35,5 +35,6 @@ const filteredItems = computed(() =>
 <style scoped>
 .essentials {
   border: 1px solid yellow;
+  margin-bottom: 1rem;
 }
 </style>

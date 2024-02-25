@@ -12,10 +12,10 @@ export const useInputStore = defineStore('input', () => {
     { id: 'pension', heading: '🧓 received pensions' },
     { id: 'benefits', heading: '🫂 received benefits from government' },
     { id: 'rrsp_out', heading: '💸 used money inside RRSP' },
-    { id: 'newcomer', heading: '🇨🇦 first year in Canada' },
-    { id: 'healthcare', heading: '💊 Spent money on healthcare' },
-    { id: 'rent', heading: '🛏️ Paid rent' },
-    { id: 'children', heading: '👶 Spent money on children' },
+    { id: 'newcomer', heading: '🇨🇦 had my first year in Canada' },
+    { id: 'healthcare', heading: '💊 spent money on healthcare' },
+    { id: 'rent', heading: '🛏️ paid rent' },
+    { id: 'children', heading: '👶 spent money on children' },
     { id: 'donation', heading: '😇 donated money' }
   ]
   const input = useLocalStorage('input', new Map())
