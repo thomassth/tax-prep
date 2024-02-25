@@ -1,0 +1,1850 @@
+[
+    {
+        "identifier": "items.0.id",
+        "source_string": "ssn",
+        "translation": "ssn",
+        "context": "items -> 0 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.0.name",
+        "source_string": "Social security number",
+        "translation": "Social security number",
+        "context": "items -> 0 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.1.id",
+        "source_string": "address",
+        "translation": "address",
+        "context": "items -> 1 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.1.name",
+        "source_string": "Home address (for 2023)",
+        "translation": "Home address (for 2023)",
+        "context": "items -> 1 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.2.id",
+        "source_string": "name",
+        "translation": "name",
+        "context": "items -> 2 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.2.name",
+        "source_string": "Full legal name",
+        "translation": "Full legal name",
+        "context": "items -> 2 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.3.id",
+        "source_string": "phone",
+        "translation": "phone",
+        "context": "items -> 3 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.3.name",
+        "source_string": "Phone number",
+        "translation": "Phone number",
+        "context": "items -> 3 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.3.source",
+        "source_string": "your employer",
+        "translation": "your employer",
+        "context": "items -> 3 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.4.id",
+        "source_string": "email",
+        "translation": "email",
+        "context": "items -> 4 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.4.name",
+        "source_string": "Email",
+        "translation": "Email",
+        "context": "items -> 4 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.4.source",
+        "source_string": "banks",
+        "translation": "banks",
+        "context": "items -> 4 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.5.id",
+        "source_string": "permit",
+        "translation": "permit",
+        "context": "items -> 5 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.5.name",
+        "source_string": "Your entry permit form",
+        "translation": "Your entry permit form",
+        "context": "items -> 5 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.5.source",
+        "source_string": "the form you received at immigration when you enter Canada",
+        "translation": "the form you received at immigration when you enter Canada",
+        "context": "items -> 5 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.6.id",
+        "source_string": "arrivalDate",
+        "translation": "arrivalDate",
+        "context": "items -> 6 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.6.name",
+        "source_string": "Your arrival date in Canada",
+        "translation": "Your arrival date in Canada",
+        "context": "items -> 6 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.6.source",
+        "source_string": "Permit certs, travel itenary",
+        "translation": "Permit certs, travel itenary",
+        "context": "items -> 6 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.7.id",
+        "source_string": "previous_income",
+        "translation": "previous_income",
+        "context": "items -> 7 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.7.name",
+        "source_string": "Your income from 2021, 2022 (including times before you enter Canada)",
+        "translation": "Your income from 2021, 2022 (including times before you enter Canada)",
+        "context": "items -> 7 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.7.source",
+        "source_string": "tax receipts of your previous years",
+        "translation": "tax receipts of your previous years",
+        "context": "items -> 7 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.8.id",
+        "source_string": "prev_notice",
+        "translation": "prev_notice",
+        "context": "items -> 8 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.8.name",
+        "source_string": "Notice of assessment, tax return for 2022",
+        "translation": "Notice of assessment, tax return for 2022",
+        "context": "items -> 8 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.8.source",
+        "source_string": "CRA",
+        "translation": "CRA",
+        "context": "items -> 8 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.9.id",
+        "source_string": "disability",
+        "translation": "disability",
+        "context": "items -> 9 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.9.name",
+        "source_string": "Disability tax credit certificate",
+        "translation": "Disability tax credit certificate",
+        "context": "items -> 9 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.9.source",
+        "source_string": "???",
+        "translation": "???",
+        "context": "items -> 9 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.10.id",
+        "source_string": "firefighter",
+        "translation": "firefighter",
+        "context": "items -> 10 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.10.name",
+        "source_string": "Volunteer firefighter certificate",
+        "translation": "Volunteer firefighter certificate",
+        "context": "items -> 10 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.10.source",
+        "source_string": "???",
+        "translation": "???",
+        "context": "items -> 10 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.11.id",
+        "source_string": "T4",
+        "translation": "T4",
+        "context": "items -> 11 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.11.name",
+        "source_string": "tax form",
+        "translation": "tax form",
+        "context": "items -> 11 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.11.source",
+        "source_string": "your employer",
+        "translation": "your employer",
+        "context": "items -> 11 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.12.id",
+        "source_string": "T4E",
+        "translation": "T4E",
+        "context": "items -> 12 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.12.name",
+        "source_string": "Employment Insurance Benefits",
+        "translation": "Employment Insurance Benefits",
+        "context": "items -> 12 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.12.source",
+        "source_string": "sent from the government of Canada",
+        "translation": "sent from the government of Canada",
+        "context": "items -> 12 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.13.id",
+        "source_string": "T4FHSA",
+        "translation": "T4FHSA",
+        "context": "items -> 13 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.13.name",
+        "source_string": "Fitst Home Savings Account",
+        "translation": "Fitst Home Savings Account",
+        "context": "items -> 13 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.13.source",
+        "source_string": "banks",
+        "translation": "banks",
+        "context": "items -> 13 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.14.id",
+        "source_string": "T4A_P",
+        "translation": "T4A_P",
+        "context": "items -> 14 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.14.name",
+        "source_string": "Canada Pension Plan Benefits",
+        "translation": "Canada Pension Plan Benefits",
+        "context": "items -> 14 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.14.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 14 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.15.id",
+        "source_string": "T4PS",
+        "translation": "T4PS",
+        "context": "items -> 15 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.15.name",
+        "source_string": "Employee Profit-Sharing Plan Allocations and Income",
+        "translation": "Employee Profit-Sharing Plan Allocations and Income",
+        "context": "items -> 15 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.15.source",
+        "source_string": "your employer (not common)",
+        "translation": "your employer (not common)",
+        "context": "items -> 15 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.16.id",
+        "source_string": "T4A",
+        "translation": "T4A",
+        "context": "items -> 16 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.16.name",
+        "source_string": "Pension, Retirement, Annuities and Other Income",
+        "translation": "Pension, Retirement, Annuities and Other Income",
+        "context": "items -> 16 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.16.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 16 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.17.id",
+        "source_string": "T4A_OAS",
+        "translation": "T4A_OAS",
+        "context": "items -> 17 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.17.name",
+        "source_string": "Old Age Security Benefits",
+        "translation": "Old Age Security Benefits",
+        "context": "items -> 17 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.17.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 17 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.18.id",
+        "source_string": "T4_RSP",
+        "translation": "T4_RSP",
+        "context": "items -> 18 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.18.name",
+        "source_string": "RRSP Withdrawal",
+        "translation": "RRSP Withdrawal",
+        "context": "items -> 18 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.18.source",
+        "source_string": "banks",
+        "translation": "banks",
+        "context": "items -> 18 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.19.id",
+        "source_string": "T4_RIF",
+        "translation": "T4_RIF",
+        "context": "items -> 19 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.19.name",
+        "source_string": "RRIF Income",
+        "translation": "RRIF Income",
+        "context": "items -> 19 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.19.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 19 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.20.id",
+        "source_string": "T3",
+        "translation": "T3",
+        "context": "items -> 20 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.20.name",
+        "source_string": "Trust and Mutual Fund Income",
+        "translation": "Trust and Mutual Fund Income",
+        "context": "items -> 20 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.20.source",
+        "source_string": "banks",
+        "translation": "banks",
+        "context": "items -> 20 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.21.id",
+        "source_string": "T5",
+        "translation": "T5",
+        "context": "items -> 21 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.21.name",
+        "source_string": "Interest and Dividends",
+        "translation": "Interest and Dividends",
+        "context": "items -> 21 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.21.source",
+        "source_string": "banks",
+        "translation": "banks",
+        "context": "items -> 21 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.22.id",
+        "source_string": "T5007",
+        "translation": "T5007",
+        "context": "items -> 22 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.22.name",
+        "source_string": "WCB Benefits/Social Services Benefits",
+        "translation": "WCB Benefits/Social Services Benefits",
+        "context": "items -> 22 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.22.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 22 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.23.id",
+        "source_string": "T5008",
+        "translation": "T5008",
+        "context": "items -> 23 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.23.name",
+        "source_string": "Statement of Security Transactions",
+        "translation": "Statement of Security Transactions",
+        "context": "items -> 23 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.23.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 23 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.24.id",
+        "source_string": "T600",
+        "translation": "T600",
+        "context": "items -> 24 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.24.name",
+        "source_string": "Canada Savings Bonds",
+        "translation": "Canada Savings Bonds",
+        "context": "items -> 24 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.24.source",
+        "source_string": "banks",
+        "translation": "banks",
+        "context": "items -> 24 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.25.id",
+        "source_string": "capital",
+        "translation": "capital",
+        "context": "items -> 25 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.25.name",
+        "source_string": "Capital Gains/Losses",
+        "translation": "Capital Gains/Losses",
+        "context": "items -> 25 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.25.source",
+        "source_string": "your own financial portfolio, eg. stock gains/losses over the year",
+        "translation": "your own financial portfolio, eg. stock gains/losses over the year",
+        "context": "items -> 25 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.26.id",
+        "source_string": "rental",
+        "translation": "rental",
+        "context": "items -> 26 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.26.name",
+        "source_string": "Rents paid",
+        "translation": "Rents paid",
+        "context": "items -> 26 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.26.source",
+        "source_string": "your own share of rents paid, in 2023",
+        "translation": "your own share of rents paid, in 2023",
+        "context": "items -> 26 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.27.id",
+        "source_string": "rent_earn",
+        "translation": "rent_earn",
+        "context": "items -> 27 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.27.name",
+        "source_string": "Rental Income",
+        "translation": "Rental Income",
+        "context": "items -> 27 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.27.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 27 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.28.id",
+        "source_string": "alimony_earn",
+        "translation": "alimony_earn",
+        "context": "items -> 28 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.28.name",
+        "source_string": "Alimony Received (if any)",
+        "translation": "Alimony Received (if any)",
+        "context": "items -> 28 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.28.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 28 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.29.id",
+        "source_string": "childSupport_in",
+        "translation": "childSupport_in",
+        "context": "items -> 29 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.29.name",
+        "source_string": "Taxable Child Support Received",
+        "translation": "Taxable Child Support Received",
+        "context": "items -> 29 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.29.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 29 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.30.id",
+        "source_string": "selfEarn",
+        "translation": "selfEarn",
+        "context": "items -> 30 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.30.name",
+        "source_string": "Self-Employed Earnings Information",
+        "translation": "Self-Employed Earnings Information",
+        "context": "items -> 30 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.30.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 30 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.31.id",
+        "source_string": "scholarship",
+        "translation": "scholarship",
+        "context": "items -> 31 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.31.name",
+        "source_string": "Scholarships/Bursaries",
+        "translation": "Scholarships/Bursaries",
+        "context": "items -> 31 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.31.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 31 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.32.id",
+        "source_string": "selfComm",
+        "translation": "selfComm",
+        "context": "items -> 32 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.32.name",
+        "source_string": "Self-Employed Commissions Earnings Information (logbooks, home office expenses, etc)",
+        "translation": "Self-Employed Commissions Earnings Information (logbooks, home office expenses, etc)",
+        "context": "items -> 32 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.32.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 32 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.33.id",
+        "source_string": "professional_exam",
+        "translation": "professional_exam",
+        "context": "items -> 33 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.33.name",
+        "source_string": "Professional exam fees",
+        "translation": "Professional exam fees",
+        "context": "items -> 33 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.33.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 33 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.34.id",
+        "source_string": "professional",
+        "translation": "professional",
+        "context": "items -> 34 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.34.name",
+        "source_string": "Professional Earnings Information",
+        "translation": "Professional Earnings Information",
+        "context": "items -> 34 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.34.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 34 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.35.id",
+        "source_string": "argri",
+        "translation": "argri",
+        "context": "items -> 35 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.35.name",
+        "source_string": "Farming/Fishing Earnings Information",
+        "translation": "Farming/Fishing Earnings Information",
+        "context": "items -> 35 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.35.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 35 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.36.id",
+        "source_string": "adpotion",
+        "translation": "adpotion",
+        "context": "items -> 36 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.36.name",
+        "source_string": "Adoption Expenses",
+        "translation": "Adoption Expenses",
+        "context": "items -> 36 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.36.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 36 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.37.id",
+        "source_string": "invest_earn",
+        "translation": "invest_earn",
+        "context": "items -> 37 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.37.name",
+        "source_string": "Interest and Carrying Charges on Investments",
+        "translation": "Interest and Carrying Charges on Investments",
+        "context": "items -> 37 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.37.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 37 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.38.id",
+        "source_string": "alimony_out",
+        "translation": "alimony_out",
+        "context": "items -> 38 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.38.name",
+        "source_string": "Alimony Paid",
+        "translation": "Alimony Paid",
+        "context": "items -> 38 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.38.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 38 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.39.id",
+        "source_string": "student_loans",
+        "translation": "student_loans",
+        "context": "items -> 39 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.39.name",
+        "source_string": "Interest Paid on Student Loans",
+        "translation": "Interest Paid on Student Loans",
+        "context": "items -> 39 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.39.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 39 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.40.id",
+        "source_string": "invest_loss",
+        "translation": "invest_loss",
+        "context": "items -> 40 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.40.name",
+        "source_string": "Allowable Business Investment Loss",
+        "translation": "Allowable Business Investment Loss",
+        "context": "items -> 40 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.40.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 40 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.41.id",
+        "source_string": "accountant",
+        "translation": "accountant",
+        "context": "items -> 41 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.41.name",
+        "source_string": "Investment Counsel and Accounting Fees",
+        "translation": "Investment Counsel and Accounting Fees",
+        "context": "items -> 41 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.41.source",
+        "source_string": "investment company / accountants",
+        "translation": "investment company / accountants",
+        "context": "items -> 41 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.42.id",
+        "source_string": "apprentice",
+        "translation": "apprentice",
+        "context": "items -> 42 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.42.name",
+        "source_string": "Apprentice Job Creation Credit",
+        "translation": "Apprentice Job Creation Credit",
+        "context": "items -> 42 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.42.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 42 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.43.id",
+        "source_string": "healthcare",
+        "translation": "healthcare",
+        "context": "items -> 43 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.43.name",
+        "source_string": "Medical/Dental/Vision Receipts",
+        "translation": "Medical/Dental/Vision Receipts",
+        "context": "items -> 43 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.43.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 43 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.44.id",
+        "source_string": "attendant_out",
+        "translation": "attendant_out",
+        "context": "items -> 44 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.44.name",
+        "source_string": "Attendant Care Expenses",
+        "translation": "Attendant Care Expenses",
+        "context": "items -> 44 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.44.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 44 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.45.id",
+        "source_string": "moving",
+        "translation": "moving",
+        "context": "items -> 45 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.45.name",
+        "source_string": "Moving Expenses",
+        "translation": "Moving Expenses",
+        "context": "items -> 45 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.45.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 45 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.46.id",
+        "source_string": "caregiver",
+        "translation": "caregiver",
+        "context": "items -> 46 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.46.name",
+        "source_string": "Caregiver Amount",
+        "translation": "Caregiver Amount",
+        "context": "items -> 46 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.46.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 46 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.47.id",
+        "source_string": "political",
+        "translation": "political",
+        "context": "items -> 47 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.47.name",
+        "source_string": "Political Contribution Receipts",
+        "translation": "Political Contribution Receipts",
+        "context": "items -> 47 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.47.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 47 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.48.id",
+        "source_string": "donation",
+        "translation": "donation",
+        "context": "items -> 48 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.48.name",
+        "source_string": "Charitable Donations (Official Tax Receipts)",
+        "translation": "Charitable Donations (Official Tax Receipts)",
+        "context": "items -> 48 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.48.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 48 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.49.id",
+        "source_string": "medicalInsurance_out",
+        "translation": "medicalInsurance_out",
+        "context": "items -> 49 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.49.name",
+        "source_string": "Premiums Paid to Private Medical Insurance Plans",
+        "translation": "Premiums Paid to Private Medical Insurance Plans",
+        "context": "items -> 49 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.49.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 49 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.50.id",
+        "source_string": "childCare",
+        "translation": "childCare",
+        "context": "items -> 50 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.50.name",
+        "source_string": "Child Care Expenses",
+        "translation": "Child Care Expenses",
+        "context": "items -> 50 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.50.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 50 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.51.id",
+        "source_string": "pharmacy",
+        "translation": "pharmacy",
+        "context": "items -> 51 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.51.name",
+        "source_string": "Prescription Receipts Summary from Your Pharmacy",
+        "translation": "Prescription Receipts Summary from Your Pharmacy",
+        "context": "items -> 51 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.51.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 51 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.52.id",
+        "source_string": "childSupport_out",
+        "translation": "childSupport_out",
+        "context": "items -> 52 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.52.name",
+        "source_string": "Deductible Child Support Paid",
+        "translation": "Deductible Child Support Paid",
+        "context": "items -> 52 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.52.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 52 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.53.id",
+        "source_string": "rrsp_receipts",
+        "translation": "rrsp_receipts",
+        "context": "items -> 53 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.53.name",
+        "source_string": "RRSP Receipts",
+        "translation": "RRSP Receipts",
+        "context": "items -> 53 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.53.source",
+        "source_string": "banks",
+        "translation": "banks",
+        "context": "items -> 53 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.54.id",
+        "source_string": "legal_fees",
+        "translation": "legal_fees",
+        "context": "items -> 54 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.54.name",
+        "source_string": "Deductible Legal Fees",
+        "translation": "Deductible Legal Fees",
+        "context": "items -> 54 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.54.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 54 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.55.id",
+        "source_string": "benefit_repay",
+        "translation": "benefit_repay",
+        "context": "items -> 55 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.55.name",
+        "source_string": "Social Benefit Repayments",
+        "translation": "Social Benefit Repayments",
+        "context": "items -> 55 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.55.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 55 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.56.id",
+        "source_string": "disability_deductions",
+        "translation": "disability_deductions",
+        "context": "items -> 56 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.56.name",
+        "source_string": "Disability Support Deductions",
+        "translation": "Disability Support Deductions",
+        "context": "items -> 56 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.56.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 56 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.57.id",
+        "source_string": "spouse",
+        "translation": "spouse",
+        "context": "items -> 57 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.57.name",
+        "source_string": "Spouse Amount - Equivalent to Spouse's Net Income",
+        "translation": "Spouse Amount - Equivalent to Spouse's Net Income",
+        "context": "items -> 57 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.57.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 57 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.0.type",
+        "source_string": "info",
+        "translation": "info",
+        "context": "items -> 0 -> type",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.1.source",
+        "source_string": "Health card, driver's license etc.",
+        "translation": "Health card, driver's license etc.",
+        "context": "items -> 1 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.1.type",
+        "source_string": "info",
+        "translation": "info",
+        "context": "items -> 1 -> type",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.2.source",
+        "source_string": "Health card, driver's license etc.",
+        "translation": "Health card, driver's license etc.",
+        "context": "items -> 2 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.2.type",
+        "source_string": "info",
+        "translation": "info",
+        "context": "items -> 2 -> type",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.3.type",
+        "source_string": "info",
+        "translation": "info",
+        "context": "items -> 3 -> type",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.4.type",
+        "source_string": "info",
+        "translation": "info",
+        "context": "items -> 4 -> type",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.6.type",
+        "source_string": "info",
+        "translation": "info",
+        "context": "items -> 6 -> type",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.7.type",
+        "source_string": "info",
+        "translation": "info",
+        "context": "items -> 7 -> type",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.11.formId",
+        "source_string": "T4",
+        "translation": "T4",
+        "context": "items -> 11 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.12.formId",
+        "source_string": "T4E",
+        "translation": "T4E",
+        "context": "items -> 12 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.13.formId",
+        "source_string": "T4FHSA",
+        "translation": "T4FHSA",
+        "context": "items -> 13 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.14.formId",
+        "source_string": "T4A (P)",
+        "translation": "T4A (P)",
+        "context": "items -> 14 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.15.formId",
+        "source_string": "T4PS",
+        "translation": "T4PS",
+        "context": "items -> 15 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.16.formId",
+        "source_string": "T4A",
+        "translation": "T4A",
+        "context": "items -> 16 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.17.formId",
+        "source_string": "T4A(OAS)",
+        "translation": "T4A(OAS)",
+        "context": "items -> 17 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.18.formId",
+        "source_string": "T4 (RSP)",
+        "translation": "T4 (RSP)",
+        "context": "items -> 18 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.19.formId",
+        "source_string": "T4 (RIF)",
+        "translation": "T4 (RIF)",
+        "context": "items -> 19 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.20.formId",
+        "source_string": "T3",
+        "translation": "T3",
+        "context": "items -> 20 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.21.formId",
+        "source_string": "T5",
+        "translation": "T5",
+        "context": "items -> 21 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.22.formId",
+        "source_string": "T5007",
+        "translation": "T5007",
+        "context": "items -> 22 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.23.formId",
+        "source_string": "T5008",
+        "translation": "T5008",
+        "context": "items -> 23 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.24.formId",
+        "source_string": "T600",
+        "translation": "T600",
+        "context": "items -> 24 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.58.id",
+        "source_string": "disability_cert",
+        "translation": "disability_cert",
+        "context": "items -> 58 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.58.name",
+        "source_string": "Disability Tax Credit Certificate",
+        "translation": "Disability Tax Credit Certificate",
+        "context": "items -> 58 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.58.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 58 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.59.id",
+        "source_string": "work_expense",
+        "translation": "work_expense",
+        "context": "items -> 59 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.59.name",
+        "source_string": "Employment Expenses - Expense Summary",
+        "translation": "Employment Expenses - Expense Summary",
+        "context": "items -> 59 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.59.source",
+        "source_string": "workplace",
+        "translation": "workplace",
+        "context": "items -> 59 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.60.id",
+        "source_string": "tradeperson",
+        "translation": "tradeperson",
+        "context": "items -> 60 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.60.name",
+        "source_string": "Tradespersons Tools Expenses",
+        "translation": "Tradespersons Tools Expenses",
+        "context": "items -> 60 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.60.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 60 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.61.id",
+        "source_string": "teacher",
+        "translation": "teacher",
+        "context": "items -> 61 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.61.name",
+        "source_string": "Eligible Teaching Supplies Purchased (for school teachers and early educatiors only)",
+        "translation": "Eligible Teaching Supplies Purchased (for school teachers and early educatiors only)",
+        "context": "items -> 61 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.61.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 61 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.62.id",
+        "source_string": "tuition",
+        "translation": "tuition",
+        "context": "items -> 62 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.62.formId.0",
+        "source_string": "T2202",
+        "translation": "T2202",
+        "context": "items -> 62 -> formId -> 0",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.62.formId.1",
+        "source_string": "T2202A",
+        "translation": "T2202A",
+        "context": "items -> 62 -> formId -> 1",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.62.name",
+        "source_string": "Tuition / Tuition Fees",
+        "translation": "Tuition / Tuition Fees",
+        "context": "items -> 62 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.62.source",
+        "source_string": "your school",
+        "translation": "your school",
+        "context": "items -> 62 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.63.id",
+        "source_string": "work_condition",
+        "translation": "work_condition",
+        "context": "items -> 63 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.63.formId",
+        "source_string": "T2200",
+        "translation": "T2200",
+        "context": "items -> 63 -> formId",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.63.name",
+        "source_string": "Declaration of Conditions of Employment",
+        "translation": "Declaration of Conditions of Employment",
+        "context": "items -> 63 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.63.source",
+        "source_string": "your workplace",
+        "translation": "your workplace",
+        "context": "items -> 63 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.64.id",
+        "source_string": "work_expenses",
+        "translation": "work_expenses",
+        "context": "items -> 64 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.64.name",
+        "source_string": "Your work expenses (if you have T2200)",
+        "translation": "Your work expenses (if you have T2200)",
+        "context": "items -> 64 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.65.id",
+        "source_string": "tuition_dependent",
+        "translation": "tuition_dependent",
+        "context": "items -> 65 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.65.name",
+        "source_string": "Tuition - Dependent's Net Income (For Transfer of Credits)",
+        "translation": "Tuition - Dependent's Net Income (For Transfer of Credits)",
+        "context": "items -> 65 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.65.source",
+        "source_string": "your dependent's workplace",
+        "translation": "your dependent's workplace",
+        "context": "items -> 65 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.66.id",
+        "source_string": "homebuyer",
+        "translation": "homebuyer",
+        "context": "items -> 66 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.66.name",
+        "source_string": "Homebuyers Credit",
+        "translation": "Homebuyers Credit",
+        "context": "items -> 66 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.66.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 66 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.67.id",
+        "source_string": "home_office",
+        "translation": "home_office",
+        "context": "items -> 67 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.67.name",
+        "source_string": "Home Office Expenses as an Employee",
+        "translation": "Home Office Expenses as an Employee",
+        "context": "items -> 67 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.67.source",
+        "source_string": "raw_data",
+        "translation": "raw_data",
+        "context": "items -> 67 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.68.id",
+        "source_string": "union",
+        "translation": "union",
+        "context": "items -> 68 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.68.name",
+        "source_string": "Union and Professional Dues (if not included on your T4)",
+        "translation": "Union and Professional Dues (if not included on your T4)",
+        "context": "items -> 68 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.68.source",
+        "source_string": "your workplace / union",
+        "translation": "your workplace / union",
+        "context": "items -> 68 -> source",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.69.id",
+        "source_string": "accessible_home",
+        "translation": "accessible_home",
+        "context": "items -> 69 -> id",
+        "labels": "main_list.json",
+        "max_length": null
+    },
+    {
+        "identifier": "items.69.name",
+        "source_string": "Home renovation cost (for seniors / accessibility)",
+        "translation": "Home renovation cost (for seniors / accessibility)",
+        "context": "items -> 69 -> name",
+        "labels": "main_list.json",
+        "max_length": null
+    }
+]
