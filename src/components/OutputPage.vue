@@ -38,14 +38,22 @@ const optionalItems = computed(() => {
     )
     : []
 })
+
+const checkedSelected = computed(() => {
+  const list = filteredItems.value.filter(item => {
+    return outputStore.selected.includes(item.id)
+  })
+  return list.length
+})
+
 </script>
 
 <template>
   <div class="output">
     <EssentialItems />
-    <fieldset>
+    <fieldset id="selected">
       <legend v-if="optionalItems.length">
-        <h1>Selected items</h1>
+        <h1>Selected items ({{ checkedSelected }}/{{ filteredItems.length }} checked)</h1>
         <p>
           These items are selected based on your input, and should help you complete your tax form.
         </p>
