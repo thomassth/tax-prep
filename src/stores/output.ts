@@ -1,5 +1,7 @@
 import { defineStore } from 'pinia'
 import { output } from '../data/outputDb.js'
+import { useLocalStorage } from '@vueuse/core'
+import { computed } from 'vue'
 
 export const useOutputStore = defineStore('output', () => {
   const outputGroup = new Map()
@@ -21,6 +23,15 @@ export const useOutputStore = defineStore('output', () => {
   outputGroup.set('children', new Set(['childSupport_in', 'childCare', 'childSupport_out']))
   outputGroup.set('donation', new Set(['donation', 'political']))
 
+  const checklist = useLocalStorage('checklist', new Map())
+  const selected = computed(() => [...checklist.value.keys()])
+  const checkboxChange = (string: string) => {
+    if (checklist.value.has(string)) {
+      checklist.value.delete(string)
+    } else {
+      checklist.value.set(string, true)
+    }
+  }
   // TODO: better solution than this?
-  return { outputGroup, outputDb: output.items }
+  return { outputGroup, outputDb: output.items, checklist, selected, checkboxChange }
 })

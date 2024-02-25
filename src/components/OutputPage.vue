@@ -34,8 +34,8 @@ const filteredItems = computed(() => {
 const optionalItems = computed(() => {
   return inputStore.selected.length
     ? outputStore.outputDb.filter(
-        (item) => !filteredSet.value.has(item.id) && !essentialSet.has(item.id)
-      )
+      (item) => !filteredSet.value.has(item.id) && !essentialSet.has(item.id)
+    )
     : []
 })
 </script>
@@ -45,7 +45,8 @@ const optionalItems = computed(() => {
     <EssentialItems />
     <fieldset>
       <template v-for="item in filteredItems" :key="item.id">
-        <ChecklistItem :id="item.id">
+        <ChecklistItem :id="item.id" :onChange="outputStore.checkboxChange"
+          :checked="outputStore.selected.includes(item.id)">
           <template #heading>
             <div class="checkbox-desc">
               <template v-if="Array.isArray(item.formId)">

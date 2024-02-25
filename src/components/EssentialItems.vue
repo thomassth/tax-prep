@@ -20,7 +20,8 @@ const filteredItems = computed(() =>
     <h1>Essential stuff</h1>
     <div class="output">
       <template v-for="item in filteredItems" :key="item.id">
-        <ChecklistItem :id="item.id">
+        <ChecklistItem :id="item.id" :onChange="outputStore.checkboxChange"
+          :checked="outputStore.selected.includes(item.id)">
           <template #heading>
             {{ item.name }}
           </template>
