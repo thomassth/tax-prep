@@ -156,12 +156,12 @@
       "name": "Rental Income"
     },
     {
-      "id": "alimony",
+      "id": "alimony_earn",
       "name": "Alimony Received (if any)",
       "source": "raw_data"
     },
     {
-      "id": "childSupport",
+      "id": "childSupport_in",
       "name": "Taxable Child Support Received",
       "source": "raw_data"
     },
@@ -195,17 +195,17 @@
       "source": "raw_data"
     },
     {
-      "id": "1",
+      "id": "adpotion",
       "name": "Adoption Expenses",
       "source": "raw_data"
     },
     {
-      "id": "2",
+      "id": "invest_earn",
       "name": "Interest and Carrying Charges on Investments",
       "source": "raw_data"
     },
     {
-      "id": "3",
+      "id": "alimony_out",
       "name": "Alimony Paid",
       "source": "raw_data"
     },
@@ -215,7 +215,7 @@
       "source": "raw_data"
     },
     {
-      "id": "5",
+      "id": "invest_loss",
       "name": "Allowable Business Investment Loss",
       "source": "raw_data"
     },
@@ -225,93 +225,88 @@
       "source": "investment company / accountants"
     },
     {
-      "id": "7",
+      "id": "apprentice",
       "name": "Apprentice Job Creation Credit",
       "source": "raw_data"
     },
     {
-      "id": "8",
+      "id": "healthcare",
       "name": "Medical/Dental/Vision Receipts",
       "source": "raw_data"
     },
     {
-      "id": "9",
+      "id": "attendant_out",
       "name": "Attendant Care Expenses",
       "source": "raw_data"
     },
     {
-      "id": "10",
+      "id": "moving",
       "name": "Moving Expenses",
       "source": "raw_data"
     },
     {
-      "id": "11",
+      "id": "caregiver",
       "name": "Caregiver Amount",
       "source": "raw_data"
     },
     {
-      "id": "12",
+      "id": "political",
       "name": "Political Contribution Receipts",
       "source": "raw_data"
     },
     {
-      "id": "13",
+      "id": "donation",
       "name": "Charitable Donations (Official Tax Receipts)",
       "source": "raw_data"
     },
     {
-      "id": "14",
+      "id": "medicalInsurance_out",
       "name": "Premiums Paid to Private Medical Insurance Plans",
       "source": "raw_data"
     },
     {
-      "id": "15",
+      "id": "childCare",
       "name": "Child Care Expenses",
       "source": "raw_data"
     },
     {
-      "id": "16",
+      "id": "pharmacy",
       "name": "Prescription Receipts Summary from Your Pharmacy",
       "source": "raw_data"
     },
     {
-      "id": "17",
+      "id": "childSupport_out",
       "name": "Deductible Child Support Paid",
       "source": "raw_data"
     },
     {
-      "id": "18",
+      "id": "rrsp_receipts",
       "name": "RRSP Receipts",
       "source": "banks"
     },
     {
-      "id": "19",
+      "id": "legal_fees",
       "name": "Deductible Legal Fees",
       "source": "raw_data"
     },
     {
-      "id": "20",
+      "id": "benefit_repay",
       "name": "Social Benefit Repayments",
       "source": "raw_data"
     },
     {
-      "id": "21",
+      "id": "disability_deductions",
       "name": "Disability Support Deductions",
       "source": "raw_data"
     },
     {
-      "id": "22",
+      "id": "spouse",
       "name": "Spouse Amount - Equivalent to Spouse's Net Income",
       "source": "raw_data"
     },
     {
-      "id": "23",
+      "id": "disability_cert",
       "name": "Disability Tax Credit Certificate",
-      "source": "raw_data"
-    },
-    {
-      "id": "24",
-      "name": "Spouse Amount - Spouse's Net Income",
       "source": "raw_data"
     },
     {
@@ -351,7 +346,7 @@
       "source": "your dependent's workplace"
     },
     {
-      "id": "31",
+      "id": "homebuyer",
       "name": "Homebuyers Credit",
       "source": "raw_data"
     },
